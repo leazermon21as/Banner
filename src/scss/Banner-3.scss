@@ -1,0 +1,219 @@
+.banner-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #fff;
+
+    .container {
+        background-image: url(/public/background/Frame\ 4.jpg);
+        background-repeat: no-repeat;
+        width: 1024px;
+        height: 1280px;
+        display: grid;
+        justify-content: center;
+        place-items: center;
+
+        .container-block {
+            margin-top: 70px;
+            width: 904px;
+            height: 1060px;
+            background-color: rgba(6, 42, 90, 1);
+            position: relative;
+            border: 4px solid rgba(101, 59, 255, 0.4);
+        }
+
+        .text {
+            display: grid;
+            place-items: center;
+
+            .logo {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                margin-top: -80px;
+
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+
+            .title {
+                margin-left: 60px;
+                font-size: 160px;
+            }
+        }
+
+
+
+        .nms {
+            padding: 0 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 232px;
+            height: 69px;
+            background-color: #fff;
+            color: rgba(6, 42, 90, 1);
+            font-size: 64px;
+            margin-top: 30px;
+        }
+
+        .forms {
+            position: relative;
+            display: grid;
+            place-items: center;
+            z-index: 1;
+
+            .circle {
+                position: absolute;
+                width: 244px;
+                height: 244px;
+                border: 4px solid rgba(101, 59, 255, 0.4);
+                border-radius: 500px;
+                z-index: 1;
+                top: 190px;
+            }
+
+            .line {
+                z-index: 1;
+                position: absolute;
+                left: 0;
+                top: 310px;
+                width: 904px;
+                height: 3px;
+                background-color: rgba(101, 59, 255, 0.4);
+            }
+        }
+
+
+
+        .card-people {
+
+            .pos-1 {
+                display: flex;
+                margin-top: 120px;
+                z-index: 999;
+
+                .card {
+                    margin-left: 100px;
+
+                    .num {
+                        z-index: 999;
+                    }
+                }
+
+                .card-2 {
+                    margin-left: 160px;
+                }
+            }
+
+            .card-1 {}
+
+            .card {
+                display: flex;
+                align-items: center;
+            }
+
+            .num {
+                width: 60px;
+                height: 36px;
+                background-color: #fff;
+                color: rgba(6, 42, 90, 1);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+            }
+
+            .cards {
+                z-index: 999;
+                background-color: rgba(101, 59, 255, 1);
+                width: 180px;
+                height: 210px;
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                padding-bottom: 10px;
+
+                .img-vect {
+                    position: absolute;
+                    margin-left: -40px;
+                    margin-top: -15px;
+                    width: 60px;
+                    height: 60px;
+                }
+
+                .people-card-img {
+                    clip-path: polygon(0 0, 100% 0, 100% 85%, 5% 100%, 0 100%);
+                }
+
+                p {
+                    font-size: 30px;
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+
+            .img {}
+
+            .card-2 {}
+
+            .pos-2 {
+                display: flex;
+                z-index: 999;
+                justify-content: space-between;
+                margin: 69px 59px 0 25px;
+
+                .card {}
+            }
+
+            .pos-3 {
+                display: flex;
+                justify-content: center;
+
+                .card {
+                    margin-top: -45px;
+                    margin-left: -45px;
+                }
+            }
+        }
+
+        .square {
+            position: relative;
+            display: grid;
+            margin-top: -64px;
+
+            .square-1 {
+                position: absolute;
+                width: 522px;
+                height: 212px;
+                left: 200px;
+                border: 4px solid rgba(101, 59, 255, 0.4);
+                top: -105px;
+            }
+
+            .square-2 {
+                position: absolute;
+                width: 232px;
+                top: 35px;
+                left: 340px;
+                height: 69.6px;
+                border: 4px solid rgba(101, 59, 255, 0.4);
+            }
+        }
+
+        .logo {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+
+            p {
+                font-size: 14px;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}

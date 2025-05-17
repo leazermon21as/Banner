@@ -1,0 +1,106 @@
+.banner-4 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.banner-4 .container {
+  background-image: url(/public/background/Frame\ 5.jpg);
+  background-repeat: no-repeat;
+  width: 1080px;
+  height: 1080px;
+}
+.banner-4 .container .text {
+  margin-left: 50px;
+}
+.banner-4 .container .text .title {
+  font-size: 120px;
+  margin: 0;
+  padding: 0;
+}
+.banner-4 .container .text .subtitle {
+  width: 648px;
+  height: 80px;
+  background-color: #fff;
+  color: rgb(6, 42, 90);
+  font-size: 64px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-left: 10px;
+}
+.banner-4 .container .cards {
+  color: rgb(6, 42, 90);
+  padding-left: 50px;
+  display: grid;
+  gap: 4px;
+}
+.banner-4 .container .cards .scors {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 40px;
+  gap: 90px;
+  margin-left: 160px;
+  padding: 0;
+}
+.banner-4 .container .cards .carddd {
+  margin-top: -40px;
+}
+.banner-4 .container .cards .card-1 {
+  display: flex;
+  gap: 4px;
+}
+.banner-4 .container .cards .img {
+  width: 112px;
+  height: 112px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.banner-4 .container .cards .img img {
+  width: 94px;
+  height: 94px;
+}
+.banner-4 .container .cards .name {
+  display: block;
+  width: 344px;
+  height: 112px;
+  background-color: rgba(255, 255, 255, 0.9);
+  align-content: center;
+  padding-left: 16px;
+}
+.banner-4 .container .cards .name .rub {
+  font-size: 36px;
+}
+.banner-4 .container .cards .name p {
+  font-size: 48px;
+  padding: 0;
+  margin: 0;
+}
+.banner-4 .container .cards .score-1 {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 112px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.banner-4 .container .cards .score-2 {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 112px;
+  background-color: rgb(59, 219, 255);
+}
+.banner-4 .container .logo {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.banner-4 .container .logo img {
+  width: 80px;
+  height: 80px;
+}/*# sourceMappingURL=Banner-4.css.map */

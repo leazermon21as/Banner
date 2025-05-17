@@ -1,0 +1,128 @@
+.banner-4 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+    .container {
+        background-image: url(/public/background/Frame\ 5.jpg);
+        background-repeat: no-repeat;
+        width: 1080px;
+        height: 1080px;
+
+        .text {
+            margin-left: 50px;
+
+            .title {
+                font-size: 120px;
+                margin: 0;
+                padding: 0;
+            }
+
+            .subtitle {
+                width: 648px;
+                height: 80px;
+                background-color: #fff;
+                color: rgba(6, 42, 90, 1);
+                font-size: 64px;
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                padding-left: 10px;
+            }
+        }
+
+
+
+        .cards {
+            color: rgba(6, 42, 90, 1);
+            padding-left: 50px;
+            display: grid;
+            gap: 4px;
+
+            .scors {
+                display: flex;
+                justify-content: center;
+                color: #fff;
+                font-size: 40px;
+                gap: 90px;
+                margin-left: 160px;
+                padding: 0;
+            }
+
+            .carddd {
+                margin-top: -40px;
+            }
+
+            .card-1 {
+                display: flex;
+                gap: 4px;
+            }
+
+            .img {
+                width: 112px;
+                height: 112px;
+                background-color: rgba(255, 255, 255, 0.9);
+
+                img {
+                    width: 94px;
+                    height: 94px;
+                }
+            }
+
+            .name {
+                display: block;
+                width: 344px;
+                height: 112px;
+                background-color: rgba(255, 255, 255, 0.9);
+                align-content: center;
+                padding-left: 16px;
+
+                .rub {
+                    font-size: 36px;
+                }
+
+                p {
+                    font-size: 48px;
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+
+
+            .score-1 {
+                font-size: 48px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 112px;
+                height: 112px;
+                background-color: rgba(255, 255, 255, 0.9);
+            }
+
+
+
+            .score-2 {
+                font-size: 48px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 112px;
+                height: 112px;
+                background-color: rgba(59, 219, 255, 1);
+            }
+        }
+
+        .logo {
+            img {
+                width: 80px;
+                height: 80px;
+            }
+
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+    }
+}

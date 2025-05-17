@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('/src/fonts/Steelfish\ Eb\ It.otf') format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Graph';
+  src: url('/src/fonts/graphiklcweb_medium.ttf') format('truetype');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Bd';
+  src: url('/src/fonts/Steelfish\ Eb.otf') format('truetype');
+  font-weight: 100;
+}
+
+.bd {
+  font-family: 'Bd', sans-serif;
+  font-weight: 800;
+}
+.none {
+  display: none !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+body {
+  background-color: gray;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.tt-6 {
+  font-family: 'Graph', sans-serif;
+  font-weight: 500;
+}
+
+.h1 {
+  font-family: 'MyFont', sans-serif;
+  font-weight: 700;
+}
+
+.tt-5 {
+  font-family: 'MyFont', sans-serif;
+  font-weight: 500;
+}
+
+.tt-8 {
+  font-family: 'MyFont', sans-serif;
+  font-weight: 800;
+}
+
+.tt-4 {
+  font-family: 'MyFont', sans-serif;
+  font-weight: 400;
+}

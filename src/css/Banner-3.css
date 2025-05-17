@@ -1,0 +1,177 @@
+.banner-3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  color: #fff;
+}
+.banner-3 .container {
+  background-image: url(/public/background/Frame\ 4.jpg);
+  background-repeat: no-repeat;
+  width: 1024px;
+  height: 1280px;
+  display: grid;
+  justify-content: center;
+  place-items: center;
+}
+.banner-3 .container .container-block {
+  margin-top: 70px;
+  width: 904px;
+  height: 1060px;
+  background-color: rgb(6, 42, 90);
+  position: relative;
+  border: 4px solid rgba(101, 59, 255, 0.4);
+}
+.banner-3 .container .text {
+  display: grid;
+  place-items: center;
+}
+.banner-3 .container .text .logo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -80px;
+}
+.banner-3 .container .text .logo img {
+  width: 100px;
+  height: 100px;
+}
+.banner-3 .container .text .title {
+  margin-left: 60px;
+  font-size: 160px;
+}
+.banner-3 .container .nms {
+  padding: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 232px;
+  height: 69px;
+  background-color: #fff;
+  color: rgb(6, 42, 90);
+  font-size: 64px;
+  margin-top: 30px;
+}
+.banner-3 .container .forms {
+  position: relative;
+  display: grid;
+  place-items: center;
+  z-index: 1;
+}
+.banner-3 .container .forms .circle {
+  position: absolute;
+  width: 244px;
+  height: 244px;
+  border: 4px solid rgba(101, 59, 255, 0.4);
+  border-radius: 500px;
+  z-index: 1;
+  top: 190px;
+}
+.banner-3 .container .forms .line {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 310px;
+  width: 904px;
+  height: 3px;
+  background-color: rgba(101, 59, 255, 0.4);
+}
+.banner-3 .container .card-people .pos-1 {
+  display: flex;
+  margin-top: 120px;
+  z-index: 999;
+}
+.banner-3 .container .card-people .pos-1 .card {
+  margin-left: 100px;
+}
+.banner-3 .container .card-people .pos-1 .card .num {
+  z-index: 999;
+}
+.banner-3 .container .card-people .pos-1 .card-2 {
+  margin-left: 160px;
+}
+.banner-3 .container .card-people .card {
+  display: flex;
+  align-items: center;
+}
+.banner-3 .container .card-people .num {
+  width: 60px;
+  height: 36px;
+  background-color: #fff;
+  color: rgb(6, 42, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.banner-3 .container .card-people .cards {
+  z-index: 999;
+  background-color: rgb(101, 59, 255);
+  width: 180px;
+  height: 210px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.banner-3 .container .card-people .cards .img-vect {
+  position: absolute;
+  margin-left: -40px;
+  margin-top: -15px;
+  width: 60px;
+  height: 60px;
+}
+.banner-3 .container .card-people .cards .people-card-img {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 5% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 85%, 5% 100%, 0 100%);
+}
+.banner-3 .container .card-people .cards p {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.banner-3 .container .card-people .pos-2 {
+  display: flex;
+  z-index: 999;
+  justify-content: space-between;
+  margin: 69px 59px 0 25px;
+}
+.banner-3 .container .card-people .pos-3 {
+  display: flex;
+  justify-content: center;
+}
+.banner-3 .container .card-people .pos-3 .card {
+  margin-top: -45px;
+  margin-left: -45px;
+}
+.banner-3 .container .square {
+  position: relative;
+  display: grid;
+  margin-top: -64px;
+}
+.banner-3 .container .square .square-1 {
+  position: absolute;
+  width: 522px;
+  height: 212px;
+  left: 200px;
+  border: 4px solid rgba(101, 59, 255, 0.4);
+  top: -105px;
+}
+.banner-3 .container .square .square-2 {
+  position: absolute;
+  width: 232px;
+  top: 35px;
+  left: 340px;
+  height: 69.6px;
+  border: 4px solid rgba(101, 59, 255, 0.4);
+}
+.banner-3 .container .logo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.banner-3 .container .logo p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=Banner-3.css.map */

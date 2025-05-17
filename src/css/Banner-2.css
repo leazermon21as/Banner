@@ -1,0 +1,114 @@
+.banner-2 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.banner-2 .continer {
+  background-image: url(/public/background/Frame\ 3.jpg);
+  background-repeat: no-repeat;
+  width: 1024px;
+  height: 1280px;
+  display: grid;
+  justify-content: center;
+}
+.banner-2 .continer .ufl {
+  text-align: right;
+  font-size: 40px;
+  margin-right: -60px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.banner-2 .continer .container-block {
+  padding-bottom: 30px;
+  margin-top: -30px;
+  width: 844px;
+  height: 1067px;
+  background-color: rgba(0, 24, 55, 0.8);
+}
+.banner-2 .continer .container-block .texts {
+  margin-top: -100px;
+  display: flex;
+  justify-content: center;
+  font-size: 120px;
+  gap: 85px;
+}
+.banner-2 .continer .container-block .texts .blue {
+  color: rgb(59, 219, 255);
+}
+.banner-2 .continer .container-block .commands {
+  margin-top: -70px;
+  display: grid;
+  gap: 12px;
+  margin-left: 30px;
+}
+.banner-2 .continer .container-block .commands-card {
+  display: flex;
+}
+.banner-2 .continer .container-block .commands-card .command-1 {
+  text-align: right;
+  justify-content: right;
+}
+.banner-2 .continer .container-block .commands-card .command-2 {
+  text-align: left;
+  justify-content: left;
+}
+.banner-2 .continer .container-block .commands-card .command-1,
+.banner-2 .continer .container-block .commands-card .command-2 {
+  padding: 0 20px;
+  width: 280px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.banner-2 .continer .container-block .commands-card .command-1 .text,
+.banner-2 .continer .container-block .commands-card .command-2 .text {
+  line-height: 1.4;
+}
+.banner-2 .continer .container-block .commands-card .command-1 img,
+.banner-2 .continer .container-block .commands-card .command-2 img {
+  width: 64px;
+  height: 64px;
+}
+.banner-2 .continer .container-block .commands-card .command-1 h2,
+.banner-2 .continer .container-block .commands-card .command-2 h2 {
+  font-size: 24px;
+}
+.banner-2 .continer .container-block .commands-card .command-1 p,
+.banner-2 .continer .container-block .commands-card .command-2 p {
+  color: rgba(255, 255, 255, 0.56);
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+.banner-2 .continer .container-block .data {
+  text-align: center;
+  width: 160px;
+  height: 88px;
+  background-color: #fff;
+  color: rgb(0, 24, 55);
+  padding-bottom: 8px;
+}
+.banner-2 .continer .container-block .data p {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.banner-2 .continer .container-block .data h1 {
+  font-size: 42px;
+}
+.banner-2 .continer .container-block .data h2 {
+  font-size: 14px;
+  color: rgba(0, 24, 55, 0.4);
+}
+.banner-2 .continer .logo {
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-2 .continer .logo img {
+  width: 72px;
+  height: 72px;
+}/*# sourceMappingURL=Banner-2.css.map */
