@@ -13,7 +13,7 @@
         .text {
             display: flex;
             align-items: center;
-            padding-left: 60px;
+            padding-left: 30px;
 
             .title {
                 text-align: right;
@@ -35,7 +35,7 @@
                 background-color: #fff;
                 margin-top: 20px;
                 margin-left: 68px;
-                margin-right: 50px;
+                margin-right: 68px;
             }
 
             .subtitle {
@@ -99,7 +99,6 @@
                 display: grid;
                 margin-top: -15px;
                 gap: 3px;
-                margin-left: -20px;
             }
 
             .name {
@@ -188,6 +187,7 @@
 
         .logotype {
             margin-top: 5px;
+            padding: 10px;
         }
 
 

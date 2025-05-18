@@ -15,6 +15,7 @@
 
         .container-block {
             margin-top: 70px;
+            margin-left: -5px;
             width: 904px;
             height: 1060px;
             background-color: rgba(6, 42, 90, 1);
@@ -89,6 +90,10 @@
 
 
         .card-people {
+            .num {
+                z-index: 999;
+                margin-top: -50px;
+            }
 
             .pos-1 {
                 display: flex;
@@ -96,15 +101,16 @@
                 z-index: 999;
 
                 .card {
-                    margin-left: 100px;
+                    margin-left: 95px;
 
                     .num {
                         z-index: 999;
+                        margin-top: -50px;
                     }
                 }
 
                 .card-2 {
-                    margin-left: 160px;
+                    margin-left: 175px;
                 }
             }
 
@@ -174,7 +180,7 @@
                 justify-content: center;
 
                 .card {
-                    margin-top: -45px;
+                    margin-top: -25px;
                     margin-left: -45px;
                 }
             }
@@ -191,13 +197,13 @@
                 height: 212px;
                 left: 200px;
                 border: 4px solid rgba(101, 59, 255, 0.4);
-                top: -105px;
+                top: -127px;
             }
 
             .square-2 {
                 position: absolute;
                 width: 232px;
-                top: 35px;
+                top: 15px;
                 left: 340px;
                 height: 69.6px;
                 border: 4px solid rgba(101, 59, 255, 0.4);
@@ -208,6 +214,7 @@
             display: flex;
             gap: 15px;
             align-items: center;
+            margin-top: -30px;
 
             p {
                 font-size: 14px;

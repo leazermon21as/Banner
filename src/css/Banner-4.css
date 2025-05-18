@@ -12,6 +12,7 @@
 }
 .banner-4 .container .text {
   margin-left: 50px;
+  margin-top: 50px;
 }
 .banner-4 .container .text .title {
   font-size: 120px;
@@ -34,6 +35,7 @@
   padding-left: 50px;
   display: grid;
   gap: 4px;
+  margin-top: -20px;
 }
 .banner-4 .container .cards .scors {
   display: flex;
@@ -52,6 +54,9 @@
   gap: 4px;
 }
 .banner-4 .container .cards .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 112px;
   height: 112px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -97,7 +102,7 @@
 .banner-4 .container .logo {
   display: flex;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 45px;
   margin-left: 50px;
 }
 .banner-4 .container .logo img {

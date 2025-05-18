@@ -13,7 +13,7 @@
 .banner-1 .container .text {
   display: flex;
   align-items: center;
-  padding-left: 60px;
+  padding-left: 30px;
 }
 .banner-1 .container .text .title {
   text-align: right;
@@ -30,7 +30,7 @@
   background-color: #fff;
   margin-top: 20px;
   margin-left: 68px;
-  margin-right: 50px;
+  margin-right: 68px;
 }
 .banner-1 .container .text .subtitle {
   text-align: right;
@@ -78,7 +78,6 @@
   display: grid;
   margin-top: -15px;
   gap: 3px;
-  margin-left: -20px;
 }
 .banner-1 .container .list .name {
   width: 442px;
@@ -149,4 +148,5 @@
 }
 .banner-1 .container .logotype {
   margin-top: 5px;
+  padding: 10px;
 }/*# sourceMappingURL=Baner-1.css.map */

@@ -17,12 +17,11 @@
             font-size: 40px;
             margin-right: -60px;
             margin-top: 20px;
-            margin-bottom: 10px;
         }
 
         .container-block {
-            padding-bottom: 30px;
-            margin-top: -30px;
+            padding-bottom: 40px;
+            margin-top: 0px;
             width: 844px;
             height: 1067px;
             background-color: rgba(0, 24, 55, 0.8);
@@ -126,7 +125,8 @@
                 height: 72px;
             }
 
-            margin-top: -30px;
+            padding: 10px;
+            margin: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
