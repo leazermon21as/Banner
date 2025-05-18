@@ -8,7 +8,7 @@
   background-image: url(../assets/background/frame2.jpg);
   background-repeat: no-repeat;
   width: 1024px;
-  height: 1280px;
+  height: 1310px;
   display: grid;
   justify-content: center;
 }
@@ -20,7 +20,7 @@
 }
 .banner-2 .continer .container-block {
   padding-bottom: 40px;
-  margin-top: 0px;
+  margin-top: 25px;
   width: 844px;
   height: 1067px;
   background-color: rgba(0, 24, 55, 0.8);
@@ -103,7 +103,6 @@
 }
 .banner-2 .continer .logo {
   padding: 10px;
-  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
